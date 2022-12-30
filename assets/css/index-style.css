@@ -64,16 +64,19 @@
 #about-me {
     background-color: #2C3333;
     color: #fff;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 #head-about-me {
     font-size: 40px;
     text-align: center;
 }
-
-#content-what-im-doing {
-    margin-top: 5%;
+.light {
+    font-weight: 100;
 }
+/* #content-what-im-doing {
+    margin-top: 5%;
+} */
+
 
 @media only screen and (min-width: 760px) {
    #foto-diri {
@@ -141,3 +144,29 @@
     }
 }
 
+@media only screen and (min-width: 1700px) {
+    #foto-diri {
+        width: 30vmax;
+    } 
+    #content {
+        padding-left: 20%;
+    }
+    #content h3 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    #content h1 {
+        font-weight: 700;
+        font-size: 64px;
+    }
+    #content p {
+        font-size: 24px;
+    }
+    #head-about-me {
+        font-size: 64px;
+    }
+    #parag-about-me {
+        font-size: 22px;
+        font-weight: 100;
+    }
+}
